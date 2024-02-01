@@ -1,0 +1,142 @@
+body {
+  background: #f8f8f8;
+  margin: 0;
+}
+body > p {
+  background: #fff;
+  padding: 20px;
+  color: darkgray;
+  margin-top: 0;
+}
+body > div.swiper > div.swiper-wrapper > .swiper-slide {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-top: 16px;
+  width: 250px;
+  height: 80px;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+}
+
+body > div.swiper > div.swiper-wrapper > {
+  display: flex;
+  justify-content: space-between;
+}
+
+body > div.swiper {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  background: #fff;
+  margin-top: 16px;
+}
+.content__tab--2 {
+  display: none;
+}
+
+.swiper-pagination {
+  padding-bottom: 25rem;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: darkgray;
+}
+
+.swiper-pagination-bullet-active {
+  background: #b5b6bc;
+}
+button {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body > div.swiper {
+    display: none;
+  }
+  .tab {
+    box-sizing: border-box;
+    height: 72px;
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    margin-top: 16px;
+  }
+  .content__tab--2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding-left: 8px;
+  }
+  .swiper-pagination {
+    display: none;
+  }
+
+  .Showing {
+    display: none;
+    padding: 20px 0px 20px 0px;
+  }
+  .content__tab--2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding-left: 8px;
+  }
+  button {
+    display: block;
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    background: #f8f8f8;
+    align-self: auto;
+    padding: 20px;
+  }
+  .arrow > img {
+    padding: 20px;
+  }
+}
+@media (min-width: 1120px) {
+  body > div.swiper {
+    display: none;
+  }
+  .content__tab--2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    max-width: 75%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .swiper-pagination {
+    display: none;
+  }
+  .tab {
+    box-sizing: border-box;
+    height: 72px;
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    margin-top: 16px;
+  }
+}
